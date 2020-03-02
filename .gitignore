@@ -1,0 +1,6 @@
+# Generated files
+out/
+
+# IntelliJ
+*.iml
+.idea/
