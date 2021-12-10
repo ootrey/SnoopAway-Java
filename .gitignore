@@ -1,6 +1,9 @@
-# Generated files
-out/
-
 # IntelliJ
 *.iml
 .idea/
+
+# Gradle
+.gradle
+gradlew*
+gradle-wrapper.jar
+build/

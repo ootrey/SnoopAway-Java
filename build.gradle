@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+javafx {
+    version = "17"
+    modules = ['javafx.controls']
+}

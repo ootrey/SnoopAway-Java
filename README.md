@@ -29,7 +29,7 @@ The latest version for Windows and Linux can be [downloaded here](https://github
 
 ### Advanced Usage
 
-If you are using the latest executable jar file from [releases page](https://github.com/dev-kitty/SnoopAway-Java/releases), be sure you have Java 13 installed. If you compile on your own, **a minimum version of Java 8 is required**.
+If you are using the latest executable jar file from [releases page](https://github.com/ootrey/SnoopAway-Java/releases), be sure you have Java 13 installed. If you compile on your own, **a minimum version of Java 8 is required**.
 
 #### Launch Graphical User Interface
 
