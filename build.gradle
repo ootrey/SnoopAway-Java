@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'org.openjfx.javafxplugin' version '0.0.10'
+    id 'com.github.johnrengelman.shadow' version '7.1.0'
 }
 
 repositories {
@@ -11,6 +12,14 @@ dependencies {
 }
 
 javafx {
-    version = "17"
+    version = '17'
     modules = ['javafx.controls']
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'SnoopAway'
+        )
+    }
 }
